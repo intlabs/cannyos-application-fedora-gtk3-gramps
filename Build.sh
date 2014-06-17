@@ -61,5 +61,5 @@ sudo docker run -i -t --rm \
  --volume "/CannyOS/build/cannyos-application-fedora-gtk3-gramps":"/CannyOS/Host" \
  --name "cannyos-application-fedora-gtk3-gramps" \
  --user "root" \
- -p 80 \
+ -p 80:80 \
  intlabs/cannyos-application-fedora-gtk3-gramps 
